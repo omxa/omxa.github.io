@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f5f5f5;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    
+    border-radius: 10px; /* Smoothened corners */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: background-color 0.3s ease; 
+}
+
+
+header {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #038fda; /* LinkedIn blue */
+    color: white;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+
+    font-family: 'Overpass', sans-serif;
+
+}
+
+header p {
+    margin-bottom: 5px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 50px 0;
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#about, #skills, #projects,#certification, #experience, #education {
+    background-color: white;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    margin-bottom: 10px ;
+    font-size: 1.2rem;
+}
+
+strong{
+    color: #333;
+}
+
+a {
+    color: #0077b5;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #005582;
+}
+
+
+
+footer {
+    background-color: #0077b5;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+
+
+section {
+    transition: transform 0.3s ease-in-out;
+}
+
+section:hover {
+    transform: translateY(-5px);
+}
+
+a:hover {
+    color: #ff5722; /* change color on hover */
+    transition: color 0.3s ease;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    li {
+        font-size: 1rem;
+    }
+}
